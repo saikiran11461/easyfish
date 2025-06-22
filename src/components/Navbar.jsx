@@ -15,15 +15,15 @@ const Navbar = () => {
 
   return (
     <>
-      {/* Top Nav */}
-      <div className="box-border px-[20px] lg:px-[100px] py-[10px] bg-amber-60 relative z-50">
+   
+      <div className="fixed top-0 left-0 right-0 z-50 px-[20px] lg:px-[100px] py-[10px] bg-white shadow-md">
         <div className="flex justify-between items-center">
-          {/* Logo */}
+   
           <div>
             <Image src={logo} alt="logo" width={70} />
           </div>
 
-          {/* Desktop Links */}
+
           <ul className="hidden lg:flex gap-9 ">
             <li>
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
@@ -42,7 +42,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          {/* Desktop Button + Mobile Menu Icon */}
+   
           <div className="flex items-center gap-3">
             <Button
               className="bg-[var(--background)] text-white px-[20px] py-[9px] rounded-xl text-[18px] hidden lg:block"
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Sidebar */}
+ 
       <div className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transition-transform duration-300 ${active ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="flex justify-between items-center px-4 py-3 border-b">
           <span className="font-semibold text-lg">Menu</span>
@@ -76,7 +76,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Overlay */}
+
       {active && (
         <div className="fixed inset-0 bg-black opacity-30 z-40" onClick={handleActive} />
       )}
