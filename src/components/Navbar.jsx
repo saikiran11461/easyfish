@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Links */}
-          <ul className="hidden lg:flex gap-9 font-bold">
+          <ul className="hidden lg:flex gap-9 ">
             <li>
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
             </li>
