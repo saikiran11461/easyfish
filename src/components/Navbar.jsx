@@ -38,7 +38,7 @@ const Navbar = () => {
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Orders</a>
             </li>
             <li>
-              <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Contact</a>
+              <a href="##" className="hover:text-amber-600 transition-colors cursor-pointer">Contact</a>
             </li>
           </ul>
 
