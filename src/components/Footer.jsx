@@ -13,7 +13,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-[#F27C00] to-[#F27C00]/80 rounded-xl flex items-center justify-center shadow-lg shadow-[#F27C00]/25">
                 {/* <Fish className="w-7 h-7 text-white" /> */}
-                <Image src={Icon} />
+                <Image alt='icon' src={Icon} />
               </div>
               <div className="flex flex-col">
                 {/* <span className="text-2xl font-bold text-white leading-tight">
