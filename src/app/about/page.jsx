@@ -20,7 +20,7 @@ import {
     return (
       <div className="min-h-screen bg-white">
   
-        {/* Hero Section */}
+  
         <section className="relative py-24 bg-gradient-to-br from-slate-50 to-orange-50/50 overflow-hidden">
           <div className="absolute inset-0">
             <div className="absolute top-20 left-20 w-72 h-72 bg-gradient-to-r from-[#F27C00]/10 to-[#7C1E12]/5 rounded-full blur-3xl animate-pulse" />
@@ -36,7 +36,7 @@ import {
           </div>
         </section>
   
-        {/* Founder Section */}
+  
         <section className="py-24 bg-white">
           <div className="container mx-auto px-6 max-w-7xl">
             <div className="text-center mb-16">
@@ -77,7 +77,7 @@ import {
           </div>
         </section>
   
-        {/* Mission & Vision */}
+
         <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
           <div className="container mx-auto px-6 max-w-6xl">
             <div className="text-center mb-16">
@@ -110,7 +110,7 @@ import {
               ))}
             </div>
   
-            {/* Values */}
+  
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
@@ -150,7 +150,7 @@ import {
           </div>
         </section>
   
-        {/* CTA Section */}
+   
         <section className="py-24 bg-gradient-to-br from-gray-50 to-white text-center">
           <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-12 py-6 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
             Partner With Us Today
@@ -158,7 +158,7 @@ import {
           </button>
         </section>
   
-        {/* Who We Serve */}
+ 
         <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
           <div className="container mx-auto px-6">
             <div className="max-w-6xl mx-auto">
