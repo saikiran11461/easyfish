@@ -1,3 +1,4 @@
+import WhatsAppFloatingIcon from "@/components/WatsAppFloatIcon";
 import {
     ShoppingCart,
     UtensilsCrossed,
@@ -21,7 +22,7 @@ import {
       <div className="min-h-screen bg-white">
   
   
-        <section className="relative py-24 bg-gradient-to-br from-slate-50 to-orange-50/50 overflow-hidden">
+        <section className="relative py-24 bg-gradient-to-br from-slate-50 to-orange-50/50 overflow-hidden mt-20">
           <div className="absolute inset-0">
             <div className="absolute top-20 left-20 w-72 h-72 bg-gradient-to-r from-[#F27C00]/10 to-[#7C1E12]/5 rounded-full blur-3xl animate-pulse" />
             <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-l from-blue-100/30 to-cyan-100/20 rounded-full blur-3xl animate-pulse delay-1000" />
@@ -48,7 +49,7 @@ import {
               <div className="relative group">
                 <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-gray-100 to-gray-200 shadow-2xl transform group-hover:scale-[1.02] transition-all duration-500">
                   <img
-                    src="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                    src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
                     alt="Anil Kumar Karanam - Founder & CEO"
                     className="w-full h-[500px] object-cover"
                   />
@@ -226,6 +227,8 @@ import {
             </div>
           </div>
         </section>
+
+        <WhatsAppFloatingIcon/>
   
       </div>
     );

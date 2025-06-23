@@ -1,7 +1,8 @@
 "use client"
 import React from 'react';
 import { Fish, Phone, Mail, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
-
+import Image from 'next/image';
+import Icon from "../assets/logo.png"
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-[#7C1E12] to-[#7C1E12]/90 text-white">
@@ -11,15 +12,16 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <div className="w-12 h-12 bg-gradient-to-br from-[#F27C00] to-[#F27C00]/80 rounded-xl flex items-center justify-center shadow-lg shadow-[#F27C00]/25">
-                <Fish className="w-7 h-7 text-white" />
+                {/* <Fish className="w-7 h-7 text-white" /> */}
+                <Image src={Icon} />
               </div>
               <div className="flex flex-col">
-                <span className="text-2xl font-bold text-white leading-tight">
+                {/* <span className="text-2xl font-bold text-white leading-tight">
                   EasyFish
                 </span>
                 <span className="text-sm text-[#F27C00] font-medium -mt-1">
                   Premium Seafood
-                </span>
+                </span> */}
               </div>
             </div>
             <p className="text-gray-200 mb-6 leading-relaxed max-w-md">

@@ -20,34 +20,33 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
    
           <div>
-            <Image src={logo} alt="logo" width={70} />
+           <a href="/"> <Image src={logo} alt="logo" width={70} /></a>
           </div>
 
 
           <ul className="hidden lg:flex gap-9 ">
             <li>
-              <a href="/" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
+              <a href="/" className="hover:text-amber-600 text-xl transition-colors cursor-pointer">Home</a>
             </li>
             <li>
-              <a href="##" className="hover:text-amber-600 transition-colors cursor-pointer">Products</a>
+              <a href="/about" className="hover:text-amber-600 text-xl transition-colors cursor-pointer">About us</a>
             </li>
             <li>
-              <a href="/about" className="hover:text-amber-600 transition-colors cursor-pointer">About us</a>
+              <a href="/products" className="hover:text-amber-600 text-xl transition-colors cursor-pointer">Products</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Orders</a>
-            </li>
+            </li> */}
             <li>
-              <a href="/contact" className="hover:text-amber-600 transition-colors cursor-pointer">Contact</a>
+              <a href="/contact" className="hover:text-amber-600 text-xl transition-colors cursor-pointer">Contact</a>
             </li>
           </ul>
 
    
           <div className="flex items-center gap-3">
-            <Button
-              className="bg-[var(--background)] text-white px-[20px] py-[9px] rounded-xl text-[18px] hidden lg:block"
-              text="Oder now"
-            />
+          <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-7 py-3 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
+           order now
+          </button>
             <IoIosMenu size={25} className="lg:hidden cursor-pointer" onClick={handleActive} />
           </div>
         </div>
@@ -64,15 +63,14 @@ const Navbar = () => {
           <li><a href="#" onClick={handleActive}>Home</a></li>
           <li><a href="#" onClick={handleActive}>Products</a></li>
           <li><a href="#" onClick={handleActive}>About us</a></li>
-          <li><a href="#" onClick={handleActive}>Orders</a></li>
+          {/* <li><a href="#" onClick={handleActive}>Orders</a></li> */}
           <li><a href="#" onClick={handleActive}>Contact</a></li>
         </ul>
 
         <div className="px-6 mt-4">
-          <Button
-            className="bg-[var(--background)] text-white w-full py-[10px] rounded-xl"
-            text="Oder now"
-          />
+        <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-8 py-4 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
+           order now
+          </button>
         </div>
       </div>
 

@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Footer from "@/components/Footer";
+import WhatsAppFloatingIcon from "@/components/WatsAppFloatIcon";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-[#7C1E12] via-[#8B2635] to-[#7C1E12] text-white py-20 mt-15">
+      <section className="relative overflow-hidden bg-gradient-to-r from-[#7C1E12] via-[#8B2635] to-[#7C1E12] text-white py-20 mt-22">
         <div className="container mx-auto px-6 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Get in Touch with <span className="text-[#F27C00]">EasyFish</span>
@@ -131,6 +132,7 @@ const ContactUs = () => {
       {/* Separator */}
       <hr className="my-12 border-t border-gray-300" />
 
+    <WhatsAppFloatingIcon/>
     
     </div>
   );
