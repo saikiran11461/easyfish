@@ -26,13 +26,13 @@ const Navbar = () => {
 
           <ul className="hidden lg:flex gap-9 ">
             <li>
-              <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
+              <a href="/" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
             </li>
             <li>
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Products</a>
             </li>
             <li>
-              <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">About us</a>
+              <a href="/about" className="hover:text-amber-600 transition-colors cursor-pointer">About us</a>
             </li>
             <li>
               <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Orders</a>
