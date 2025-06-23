@@ -29,7 +29,7 @@ const Navbar = () => {
               <a href="/" className="hover:text-amber-600 transition-colors cursor-pointer">Home</a>
             </li>
             <li>
-              <a href="#" className="hover:text-amber-600 transition-colors cursor-pointer">Products</a>
+              <a href="##" className="hover:text-amber-600 transition-colors cursor-pointer">Products</a>
             </li>
             <li>
               <a href="/about" className="hover:text-amber-600 transition-colors cursor-pointer">About us</a>
