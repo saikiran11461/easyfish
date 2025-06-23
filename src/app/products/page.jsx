@@ -93,8 +93,25 @@ const filteredProducts = activeFilter === "all"
   
   return (
     <div>
+      
 
-<section className="py-20 px-6 bg-gradient-to-r from-blue-50 to-cyan-50 mt-20">
+      <section className="relative py-24 bg-gradient-to-br from-slate-50 to-orange-50/50 overflow-hidden mt-20">
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-20 w-72 h-72 bg-gradient-to-r from-[#F27C00]/10 to-[#7C1E12]/5 rounded-full blur-3xl animate-pulse" />
+            <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-to-l from-blue-100/30 to-cyan-100/20 rounded-full blur-3xl animate-pulse delay-1000" />
+          </div>
+          <div className="container mx-auto px-6 text-center relative z-10">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+            Premium <span className="text-[#F27C00]">Seafood</span> Products
+          </h1>
+          <p className="text-xl md:text-2xl text-black/90 max-w-3xl mx-auto leading-relaxed animate-fade-in">
+            From ocean to your table - Experience the freshest catch with EasyFish
+          </p>
+          </div>
+        </section>
+
+
+<section className="py-20 px-6 bg-gradient-to-r from-blue-50 to-cyan-50 ">
   <div className="container mx-auto max-w-7xl">
     <div className="text-center mb-12">
       <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">Explore Our Fresh Catches</h2>
@@ -248,15 +265,15 @@ const filteredProducts = activeFilter === "all"
     </div>
 
 
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
       <div className="space-y-4">
         <img
-          src="https://images.pexels.com/photos/61153/fish-fischer-ocean-market-61153.jpeg"
+          src="https://images.pexels.com/photos/8352398/pexels-photo-8352398.jpeg"
           alt="Fresh Fish"
           className="w-full h-48 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
         <img
-          src="https://images.pexels.com/photos/96379/pexels-photo-96379.jpeg"
+          src="https://images.pexels.com/photos/8351887/pexels-photo-8351887.jpeg"
           alt="Shellfish"
           className="w-full h-32 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
@@ -264,12 +281,12 @@ const filteredProducts = activeFilter === "all"
 
       <div className="space-y-4 pt-8">
         <img
-          src="https://images.pexels.com/photos/229789/pexels-photo-229789.jpeg"
+          src="https://images.pexels.com/photos/8352010/pexels-photo-8352010.jpeg"
           alt="Premium Tuna"
           className="w-full h-32 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
         <img
-          src="https://images.pexels.com/photos/2042564/pexels-photo-2042564.jpeg"
+          src="https://images.pexels.com/photos/8352396/pexels-photo-8352396.jpeg"
           alt="Ocean Fresh"
           className="w-full h-48 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
@@ -277,12 +294,12 @@ const filteredProducts = activeFilter === "all"
 
       <div className="space-y-4">
         <img
-          src="https://images.pexels.com/photos/3680164/pexels-photo-3680164.jpeg"
+          src="https://images.pexels.com/photos/8351890/pexels-photo-8351890.jpeg"
           alt="Crab"
           className="w-full h-40 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
         <img
-          src="https://images.pexels.com/photos/3650159/pexels-photo-3650159.jpeg"
+          src="https://images.pexels.com/photos/12273122/pexels-photo-12273122.jpeg"
           alt="Sea Delicacies"
           className="w-full h-40 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
@@ -290,12 +307,12 @@ const filteredProducts = activeFilter === "all"
 
       <div className="space-y-4 pt-12">
         <img
-          src="https://images.pexels.com/photos/30649002/pexels-photo-30649002.jpeg"
+          src="https://images.pexels.com/photos/96379/pexels-photo-96379.jpeg"
           alt="Exotic Fish"
           className="w-full h-36 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
         <img
-          src="https://images.pexels.com/photos/30910212/pexels-photo-30910212.jpeg"
+          src="https://images.pexels.com/photos/246120/pexels-photo-246120.jpeg"
           alt="Premium Catch"
           className="w-full h-44 object-cover rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
         />
