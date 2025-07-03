@@ -10,7 +10,7 @@ export const metadata = {
     siteName: 'EasyFish',
     images: [
       {
-        url: 'https://github.com/user-attachments/assets/610787d2-3d3d-498b-8f2a-252430d5835a',
+        url: 'https://res.cloudinary.com/dwdcs6tzo/image/upload/v1751547032/logo_nmtufl.png',
         width: 1200,
         height: 630,
         alt: 'Contact EasyFish',
@@ -22,7 +22,7 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Contact Us - EasyFish',
     description: 'Questions or feedback? Contact EasyFish today.',
-    images: ['https://github.com/user-attachments/assets/610787d2-3d3d-498b-8f2a-252430d5835a'],
+    images: ['https://res.cloudinary.com/dwdcs6tzo/image/upload/v1751547032/logo_nmtufl.png'],
   },
 };
 
