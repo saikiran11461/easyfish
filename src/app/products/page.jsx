@@ -117,9 +117,9 @@ const filteredProducts = activeFilter === "all"
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { icon: "🌊", title: "Wild-Caught Freshness", desc: "Directly sourced from natural waters" },
-              { icon: "🧼", title: "Hygienically Cleaned", desc: "Processed in certified facilities" },
-              { icon: "📦", title: "Vacuum Packaging", desc: "Preserves freshness and flavor" },
+              { icon: "🌊", title: "Wild Catch Freshness", desc: " Sourced directly from the waters of Bay of Bengal" },
+              { icon: "🚿	", title: "Hygienically Cleaned", desc: "Hygeinically Cleaned - All Industrial Standards and best practices followed in Cleaning &  Cutting" },
+              { icon: "🚚", title: "Perfect Packing ", desc: "Packed in airtight containers to preserve the freshness" },
               { icon: "🕐", title: "1-Hour Delivery", desc: "Lightning fast delivery in Vizag" },
               { icon: "❄️", title: "Non-Frozen", desc: "Always fresh, never frozen" },
               { icon: "📋", title: "10+ Cut Types", desc: "Customized cuts for every recipe" },

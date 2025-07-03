@@ -72,11 +72,11 @@ const Navbar = () => {
         </div>
 
         <ul className="flex flex-col gap-6 px-6 py-6 font-medium text-gray-800">
-          <li><a href="#" onClick={handleActive}>Home</a></li>
-          <li><a href="#" onClick={handleActive}>Products</a></li>
-          <li><a href="#" onClick={handleActive}>About us</a></li>
+          <li><a href="/" onClick={handleActive}>Home</a></li>
+          <li><a href="/products" onClick={handleActive}>Products</a></li>
+          <li><a href="/about" onClick={handleActive}>About us</a></li>
           {/* <li><a href="#" onClick={handleActive}>Orders</a></li> */}
-          <li><a href="#" onClick={handleActive}>Contact</a></li>
+          <li><a href="/contact" onClick={handleActive}>Contact</a></li>
         </ul>
 
         <div className="px-6 mt-4">
