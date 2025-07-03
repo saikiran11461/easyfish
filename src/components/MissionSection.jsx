@@ -68,7 +68,7 @@ const MissionSection = () => {
    
             <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl border-t-4 border-[#F27C00]">
               <div className="text-center">
-                <div className="text-3xl font-bold text-[#7C1E12]">15+</div>
+                <div className="text-3xl font-bold text-[#7C1E12]">6+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
             </div>
@@ -76,7 +76,7 @@ const MissionSection = () => {
             <div className="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-xl border-t-4 border-[#F27C00]">
               <div className="text-center">
 
-Sai Kiran, [6/22/2025 9:05 AM]
+EasyFish
 <div className="text-3xl font-bold text-[#7C1E12]">500+</div>
                 <div className="text-sm text-gray-600">Happy Customers</div>
               </div>

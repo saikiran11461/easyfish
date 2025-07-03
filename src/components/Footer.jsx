@@ -106,7 +106,7 @@ const Footer = () => {
               href="#"
               className="text-gray-300 hover:text-[#F27C00] transition-colors duration-300"
             >
-              Privacy Policy Sai Kiran, [6/22/2025 8:58 AM]
+              Privacy Policy EasyFish
             </a>
             <a
               href="#"
