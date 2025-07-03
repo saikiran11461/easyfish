@@ -6,7 +6,7 @@ export const metadata = {
   openGraph: {
     title: 'Contact Us - EasyFish',
     description: 'Reach out to EasyFish for seafood inquiries, support, or feedback.',
-    url: 'https://easyfish.vercel.app/contact',
+    url: 'https://easyfish.in/contact',
     siteName: 'EasyFish',
     images: [
       {

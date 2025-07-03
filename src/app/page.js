@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: 'EasyFish - Fresh Seafood Delivered',
     description: 'Get the freshest seafood delivered to your doorstep.',
-    url: 'https://easyfish.vercel.app/',
+    url: 'https://easyfish.in/',
     siteName: 'EasyFish',
     images: [
       {
