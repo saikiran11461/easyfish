@@ -43,12 +43,16 @@ const Header = () => {
             <h2 className="text-3xl md:text-5xl text-orange-400 font-semibold mt-2">{slide.subtitle}</h2>
             <p className="mt-4 text-lg md:text-xl">{slide.description}</p>
             <div className="mt-6 flex gap-4">
-              <button className="bg-orange-500 px-6 py-3 rounded-3xl shadow hover:bg-orange-600">
+             <a  href="#categories">
+             <button className="bg-orange-500 px-6 py-3 rounded-3xl shadow hover:bg-orange-600">
                 Explore Categories
               </button>
+             </a>
+              <a href="/products">
               <button className="bg-white text-black px-6 py-3 rounded-3xl shadow hover:bg-gray-300">
                 Learn More
               </button>
+              </a>
             </div>
           </div>
         </div>

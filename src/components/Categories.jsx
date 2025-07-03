@@ -61,7 +61,7 @@ const CategoriesSection = () => {
   ];
 
   return (
-    <section  className="py-24 px-6 bg-gradient-to-br from-white via-slate-50 to-blue-50/20">
+    <section id='categories'  className="py-24 px-6 bg-gradient-to-br from-white via-slate-50 to-blue-50/20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
