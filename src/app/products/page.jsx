@@ -2,88 +2,24 @@
 import React, { useState } from "react";
 import  Button  from "../../Custom/Button";
 import WhatsAppFloatingIcon from "@/components/WatsAppFloatIcon";
+import {freshProducts} from "../../utils/freshProducts"
+import Image from 'next/image';
 
 const Products = () => {
     const [activeFilter, setActiveFilter] = useState("all");
 
     const productCategories = [
-        { id: "all", name: "All Fresh" },
-        { id: "fish", name: "Fish" },
-        { id: "shellfish", name: "Shellfish" },
-        { id: "squid", name: "Squid & Octopus" },
-        { id: "dry", name: "Dry Fish" },
-        { id: "pickles", name: "Pickles" }
-      ];
+      { id: "all", name: "All Fresh" },
+      { id: "finfish-premium", name: "FinFish - Premium" },
+      { id: "finfish-regular", name: "FinFish - Regular" },
+      { id: "shellfish-premium", name: "ShellFish - Premium" },
+      { id: "shellfish-regular", name: "ShellFish - Regular" },
+      { id: "dry-fish", name: "Dry Fish" }
+    ];
+    
       
 
-const freshProducts = [
-  {
-    id: 1,
-    name: "King Fish",
-    description: "Premium wild-caught kingfish, perfect for grilling",
-    category: "fish",
-    freshness: "Wild Catch",
-    cut: "Steaks & Fillets",
-    packaging: "Vacuum Packed",
-    price: "₹650/kg",
-    image: "https://images.pexels.com/photos/8352010/pexels-photo-8352010.jpeg"
-  },
-  {
-    id: 2,
-    name: "Tiger Prawns",
-    description: "Fresh tiger prawns, ideal for curries and fries",
-    category: "shellfish",
-    freshness: "Live",
-    cut: "Whole & Cleaned",
-    packaging: "Ready-to-Cook",
-    price: "₹850/kg",
-    image: "https://images.pexels.com/photos/32639123/pexels-photo-32639123.jpeg"
-  },
-  {
-    id: 3,
-    name: "Fresh Tuna",
-    description: "Yellowfin tuna, rich in omega-3",
-    category: "fish",
-    freshness: "Wild Catch",
-    cut: "Sashimi Grade",
-    packaging: "Vacuum Packed",
-    price: "₹750/kg",
-    image: "https://images.pexels.com/photos/8352002/pexels-photo-8352002.jpeg"
-  },
-  {
-    id: 4,
-    name: "Mud Crab",
-    description: "Premium mud crabs, sweet and tender meat",
-    category: "shellfish",
-    freshness: "Live",
-    cut: "Whole",
-    packaging: "Ready-to-Cook",
-    price: "₹950/kg",
-    image: "https://as1.ftcdn.net/v2/jpg/13/81/53/50/1000_F_1381535025_XOmZgoVH2H0xZmZboMxv80hrcpSSATaO.jpg"
-  },
-  {
-    id: 5,
-    name: "Squid",
-    description: "Fresh squid, perfect for rings and curries",
-    category: "squid",
-    freshness: "Fresh",
-    cut: "Cleaned & Cut",
-    packaging: "Ready-to-Cook",
-    price: "₹450/kg",
-    image: "https://images.pexels.com/photos/5602496/pexels-photo-5602496.jpeg"
-  },
-  {
-    id: 6,
-    name: "Pomfret",
-    description: "Silver pomfret, delicate flavor",
-    category: "fish",
-    freshness: "Wild Catch",
-    cut: "Whole & Steaks",
-    packaging: "Vacuum Packed",
-    price: "₹800/kg",
-    image: "https://images.pexels.com/photos/18907099/pexels-photo-18907099.png"
-  }
-];
+
 
 const filteredProducts = activeFilter === "all"
   ? freshProducts
@@ -158,7 +94,7 @@ const filteredProducts = activeFilter === "all"
             <h3 className="text-lg font-bold text-gray-800">{product.name}</h3>
             <p className="text-sm text-gray-600">{product.description}</p>
             <p className="text-sm text-gray-500">{product.cut} • {product.packaging}</p>
-            <p className="text-base font-semibold text-[#F27C00] mt-1">{product.price}</p>
+            {/* <p className="text-base font-semibold text-[#F27C00] mt-1">{product.price}</p> */}
           </div>
         </div>
       ))}

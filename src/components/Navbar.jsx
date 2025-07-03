@@ -44,9 +44,9 @@ const Navbar = () => {
 
    
           <div className="flex items-center gap-3">
-          <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-7 py-3 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
+         <a href="https://wa.me/919848547675"> <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-7 py-3 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
            order now
-          </button>
+          </button></a>
             <IoIosMenu size={25} className="lg:hidden cursor-pointer" onClick={handleActive} />
           </div>
         </div>
@@ -68,9 +68,10 @@ const Navbar = () => {
         </ul>
 
         <div className="px-6 mt-4">
-        <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-8 py-4 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
+       <a href="https://wa.me/919848547675">
+         <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-8 py-4 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
            order now
-          </button>
+          </button></a>
         </div>
       </div>
 

@@ -21,7 +21,7 @@ const MakesFresh = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-50 to-orange-50 relative overflow-hidden">
+    <section id="next-section" className="py-20 bg-gradient-to-br from-blue-50 to-orange-50 relative overflow-hidden">
   
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg">

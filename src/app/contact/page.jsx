@@ -1,5 +1,7 @@
 "use client";
 
+import axios from "axios";
+
 import { useState } from "react";
 import Footer from "@/components/Footer";
 import WhatsAppFloatingIcon from "@/components/WatsAppFloatIcon";
@@ -12,7 +14,7 @@ const ContactUs = () => {
     message: "",
   });
 
-  const handleInputChange = () => {
+  const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -20,10 +22,32 @@ const ContactUs = () => {
     }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+  
+    const googleFormURL =
+      "https://docs.google.com/forms/d/e/1FAIpQLSdytQZ9n6lUDa2eY0kykcuFOzHtu_8UJ7az5ApHZORTLvYzAQ/formResponse";
+  
+    const formDataMap = new URLSearchParams({
+      "entry.65210250": formData.name,
+      "entry.962400039": formData.email,
+      "entry.781651916": formData.phone,
+      "entry.2129824985": formData.message,
+    });
+  
+    await fetch(googleFormURL, {
+      method: "POST",
+      mode: "no-cors", // ✅ absolutely required
+      body: formDataMap.toString(), // ✅ correct body format
+    });
+  
+    // Google will not return a visible success response.
+    // You must check Google Form manually for the submission
+    alert("Message submitted! Check your Google Form responses tab.");
+    setFormData({ name: "", email: "", phone: "", message: "" });
   };
+  
+  
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50">
