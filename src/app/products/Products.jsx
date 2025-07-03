@@ -334,9 +334,11 @@ const filteredProducts = activeFilter === "all"
               <li key={i}>• {point}</li>
             ))}
           </ul>
-          <button className={`w-full px-6 py-3 bg-gradient-to-r ${item.buttonColor} ${item.buttonHover} text-white font-semibold rounded-xl transition-all duration-300`}>
+         <a href="https://wa.me/919848547675">
+         <button className={`w-full px-6 py-3 bg-gradient-to-r ${item.buttonColor} ${item.buttonHover} text-white font-semibold rounded-xl transition-all duration-300`}>
             {item.buttonText}
           </button>
+         </a>
         </div>
       ))}
     </div>
