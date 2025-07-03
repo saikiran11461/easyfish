@@ -43,12 +43,24 @@ const Navbar = () => {
           </ul>
 
    
-          <div className="flex items-center gap-3">
-         <a href="https://wa.me/919848547675"> <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-7 py-3 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
-           order now
-          </button></a>
+          <div className="  flex items-center gap-3">
+
+
+   <a 
+  href="https://wa.me/919848547675" 
+  className="hidden lg:inline-flex"
+>
+  <button className="bg-gradient-to-r from-[#F27C00] to-[#7C1E12] hover:from-[#E06D00] hover:to-[#A02515] text-white px-7 py-3 text-xl font-semibold rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 inline-flex items-center group">
+    order now
+  </button>
+</a>
+
+
+
             <IoIosMenu size={25} className="lg:hidden cursor-pointer" onClick={handleActive} />
           </div>
+
+
         </div>
       </div>
 
