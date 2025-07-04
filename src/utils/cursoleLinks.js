@@ -19,4 +19,23 @@ export const slides = [
     subtitle: "Curated with Care",
     description: "World-class seafood just for you",
   },
+  {
+    image: "https://res.cloudinary.com/dwdcs6tzo/image/upload/v1751620849/images6_hstcdc.jpg",
+    title: "Ocean Treasures",
+    subtitle: "Caught Fresh Daily",
+    description: "Experience the magic of the deep sea",
+  },
+  {
+    image: "https://res.cloudinary.com/dwdcs6tzo/image/upload/v1751620849/images10_v46ok4.jpg",
+    title: "Golden Harvest",
+    subtitle: "Rich Coastal Flavors",
+    description: "Authentic seafood from India's shores",
+  },
+  {
+    image: "https://res.cloudinary.com/dwdcs6tzo/image/upload/v1751620849/Image2_v847rz.jpg",
+    title: "Deep Blue Catch",
+    subtitle: "Naturally Nutritious",
+    description: "Handpicked from sustainable waters",
+  }
+  
 ];

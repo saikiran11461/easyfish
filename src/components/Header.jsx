@@ -24,7 +24,7 @@ const Header = () => {
   useEffect(() => {
     const timer = setInterval(() => {
       nextSlide();
-    }, 3000);
+    }, 4000);
     return () => clearInterval(timer);
   }, []);
 
