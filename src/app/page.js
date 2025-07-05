@@ -5,7 +5,7 @@ import MissionSection from "@/components/MissionSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import WhatsAppFloatingIcon from "@/components/WatsAppFloatIcon";
 import WhyChooseUsSection from "@/components/WhyChooseUs";
-
+import FishFactsSection from "@/components/FinFishFacts";
 
 
 export const metadata = {
@@ -47,6 +47,7 @@ export default function Home() {
     <WhyChooseUsSection/>
     <TestimonialsSection/>  
     <WhatsAppFloatingIcon/>
+    <FishFactsSection/>
     </>
   );
 }
